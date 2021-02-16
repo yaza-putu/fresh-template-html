@@ -10470,6 +10470,11 @@ a:focus {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.sidebar.toggled {
+  overflow: visible;
+  width: 6.5rem !important;
+}
+
 @media (min-width: 768px) {
   .sidebar {
     width: 14rem !important;
@@ -11241,4 +11246,8 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+
+button#top-toggle{
+  font-size: 32px !important;
 }

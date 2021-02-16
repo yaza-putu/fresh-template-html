@@ -53,4 +53,17 @@
     e.preventDefault();
   });
 
+  $('#left-toggle').click(function(){
+     $('#left-toggle').hide();
+     $('.switch-navbar').addClass('d-none');
+     $('#top-toggle').show();
+
+  });
+
+  $('#top-toggle').click(function(){
+     $('#left-toggle').show();
+     $('.switch-navbar').removeClass('d-none');
+     $('#top-toggle').hide();
+  });
+
 })(jQuery); // End of use strict
