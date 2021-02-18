@@ -1,14 +1,14 @@
+/****
+  * Fresh Template
+  * Author Yaza
+  * Version 1.0.0
+ ****/
+
 /*!
+ * Base From
  * Start Bootstrap - SB Admin 2 v4.1.3 (https://startbootstrap.com/theme/sb-admin-2)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin-2/blob/master/LICENSE)
- */
-
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
   --blue: #4e73df;
@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #858796;
+  color: #464855;
   text-align: left;
   background-color: #fff;
 }
@@ -7533,7 +7533,7 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  box-shadow: 0 0.15rem 0.75rem 0 rgba(58, 59, 69, 0.15) !important;
 }
 
 .shadow-lg {
@@ -10351,7 +10351,7 @@ a:focus {
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   display: block;
-  color: #3a3b45;
+  color: #464855;
   text-decoration: none;
   border-radius: 0.35rem;
   white-space: nowrap;
@@ -10594,7 +10594,7 @@ a:focus {
 }
 
 .sidebar-light .sidebar-brand {
-  color: #6e707e;
+  color: #464855;
 }
 
 .sidebar-light hr.sidebar-divider {
@@ -10614,11 +10614,11 @@ a:focus {
 }
 
 .sidebar-light .nav-item .nav-link:active, .sidebar-light .nav-item .nav-link:focus, .sidebar-light .nav-item .nav-link:hover {
-  color: #6e707e;
+  color: #464855;
 }
 
 .sidebar-light .nav-item .nav-link:active i, .sidebar-light .nav-item .nav-link:focus i, .sidebar-light .nav-item .nav-link:hover i {
-  color: #6e707e;
+  color:#464855;
 }
 
 .sidebar-light .nav-item .nav-link[data-toggle="collapse"]::after {
@@ -10626,7 +10626,7 @@ a:focus {
 }
 
 .sidebar-light .nav-item.active .nav-link {
-  color: #6e707e;
+  color: #464855;
 }
 
 .sidebar-light .nav-item.active .nav-link i {
